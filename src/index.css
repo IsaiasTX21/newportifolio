@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+IN+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:wght@100..900&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: #ffffff
+}
+
+body,
+#root {
+    height: 100vh;
+    background-color: #07122C;
+
+}
+
+header {
+    display: flex;
+    max-width: 1600px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #ece4d6;
+}
+
+span {
+    color: #cabfaa;
+}
+
+h1 {
+    color: #cabfaa;
+}
+
+h2 {
+    color: #cabfaa;
+}
+
+p {
+    font-family: "Google Sans Flex", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 200;
+}
+
+#cv {
+    position: relative;
+    top: 20px;
+}
+
+#thanks {
+    position: relative;
+    left: calc(50% - 100px);
+    top: calc(50% - 100px);
+    height: 200px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#containerperfil {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    height: 450px;
+    margin: auto;
+}
+
+#divimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#Myself {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+#divtext {
+    text-align: center;
+    width: 50%;
+}
+
+#Helloworld {
+    font-size: 60px;
+    position: relative;
+    top: 150px;
+    color: #cabfaa;
+}
+
+#Hellophrase {
+    font-size: 20px;
+    margin-top: 230px;
+}
+
+#Aboutme {
+    max-width: 1400px;
+    margin: auto;
+    text-align: justify;
+}
+
+#Services {
+    max-width: 1400px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.groupsprojects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.containerphoto {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.photoprojects {
+    height: 300px;
+}
+
+.containerdescription {
+    width: 50%;
+    text-align: center;
+
+}
+
+.projectdescription {
+    margin-top: 70px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 200;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.projectstitles {
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+form {
+    max-width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgb(0, 0, 0);
+    opacity: 0.95;
+    background-color: #0d0d33
+}
+
+#contact {
+    position: relative;
+    top: calc(42vh - 200px);
+
+}
+
+input {
+    width: 80%;
+    padding: 3px;
+    color: rgb(0, 0, 0);
+}
+
+textarea {
+    height: 100px;
+    width: 80%;
+    color: black;
+
+}
+
+button {
+    background-color: #263888;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+@media only screen and (width < 850px) {
+
+    .containerphoto {
+        flex-direction: column;
+    }
+
+    .groupsprojects {
+        width: 100%;
+    }
+
+    .containerdescription {
+        margin: auto;
+        width: 100%;
+    }
+
+    .photoprojects {
+        width: 500px;
+
+    }
+
+    .projectstitles {
+
+        margin-top: 20px;
+    }
+
+    .projectdescription {
+        position: relative;
+        text-align: justify;
+        bottom: 30px;
+
+    }
+
+}
+
+
+@media only screen and (width < 750px) {
+
+    #containerperfil {
+        flex-direction: column;
+        height: auto;
+    }
+
+    #divimage {
+        margin: auto;
+        width: 100%;
+        order: 2;
+
+    }
+
+    #divtext {
+        margin: auto;
+        width: 100%;
+        order: 1;
+    }
+
+    #notebook {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    #Helloworld {
+        position: relative;
+        top: 50px;
+    }
+
+    #Hellophrase {
+        position: relative;
+        bottom: 100px;
+    }
+
+}
+
+@media only screen and (width < 450px) {
+
+    #divtext {
+        height: 250px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .photoprojects {
+        width: 300px;
+        height: 200px;
+    }
+
+    #Helloworld {
+        font-size: 40px;
+        top: 80px;
+    }
+
+    #Hellophrase {
+        font-size: 20px;
+    }
+
+    .projectdescription {
+        width: 100%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
