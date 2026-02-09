@@ -15,7 +15,7 @@ export function Contact() {
                <input placeholder="Por favor, escreva seu gmail." name='gmail' id='gmail' />
                <label htmlFor="textarea" >Escreva aquilo que o seu coração deseja.</label>
                < textarea placeholder="Escreva aqui o que desejar senhor(a)." name='textarea' id='textarea' />
-               <input type="hidden" name="_next" value="https://newportifolio-beta.vercel.app/Return"></input>
+               <input type="hidden" name="_next" value="https://portifolio2026007.netlify.app//Return"></input>
                <button type='submit'>Enviar</button>
                
 
