@@ -14,8 +14,8 @@ export function Contact() {
                <label htmlFor="gmail">Seu Gmail.</label> 
                <input type="email" placeholder="Por favor, escreva seu gmail." name='gmail' id='gmail' required/>
                <label htmlFor="textarea" >Escreva aquilo que o seu coração deseja.</label>
-               < textarea placeholder="Escreva aqui o que desejar senhor(a)." name='textarea' id='textarea' />
-               <input type="hidden" name="_next" value="https://portifolio2026007.netlify.app/Return" required></input>
+               < textarea required placeholder="Escreva aqui o que desejar senhor(a)." name='textarea' id='textarea' />
+               <input type="hidden" name="_next" value="https://portifolio2026007.netlify.app/Return"></input>
                <button type='submit'>Enviar</button>
                
 
