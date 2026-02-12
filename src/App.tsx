@@ -4,10 +4,7 @@ import { Projects } from "./Projects"
 import { Contact } from "./Contact"
 import { Thanks } from "./thanks"
 
-
-
 function App() {
-
 
   return (
 

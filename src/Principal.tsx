@@ -7,7 +7,7 @@ export function Principal() {
 
    return (
       <>
-      <Header/>
+         <Header />
          <div id="containerperfil">
             <div id="divimage">
                <img id='Myself' src={Eu} alt="The Creater of the portifolio" />
@@ -22,24 +22,24 @@ export function Principal() {
 
 
          <div id='Aboutme'>
-   
-            <h1 style={{ textAlign: "center", marginTop:"15px", fontWeight:"500" }}>Sobre mim</h1>
-            <br/>
+
+            <h1 style={{ textAlign: "center", marginTop: "15px", fontWeight: "500" }}>Sobre mim</h1>
+            <br />
 
             <p>Sou desenvolvedor Front-End com foco na criação de interfaces modernas, responsivas e centradas na experiência do usuário. Tenho interesse em desenvolver soluções digitais bem estruturadas, funcionais e visualmente agradáveis, sempre buscando equilibrar design, desempenho e usabilidade.
 
-Ao longo da minha trajetória, venho aprimorando minhas habilidades técnicas e meu entendimento sobre boas práticas de desenvolvimento web, organização de código e colaboração em projetos. Gosto de trabalhar em ambientes onde posso aprender, contribuir e evoluir junto com a equipe.
+               Ao longo da minha trajetória, venho aprimorando minhas habilidades técnicas e meu entendimento sobre boas práticas de desenvolvimento web, organização de código e colaboração em projetos. Gosto de trabalhar em ambientes onde posso aprender, contribuir e evoluir junto com a equipe.
 
-Tenho como objetivo atuar em projetos que envolvam criação e melhoria de interfaces para sites e aplicações web, especialmente em landing pages e sites institucionais, sempre priorizando acessibilidade, clareza visual e uma experiência fluida para o usuário final.
+               Tenho como objetivo atuar em projetos que envolvam criação e melhoria de interfaces para sites e aplicações web, especialmente em landing pages e sites institucionais, sempre priorizando acessibilidade, clareza visual e uma experiência fluida para o usuário final.
 
-Além das competências técnicas, valorizo trabalho em equipe, comunicação clara e comprometimento com prazos e qualidade. Estou constantemente buscando me desenvolver tanto tecnicamente quanto profissionalmente, pois acredito que a aprendizagem contínua é essencial na área de tecnologia.
+               Além das competências técnicas, valorizo trabalho em equipe, comunicação clara e comprometimento com prazos e qualidade. Estou constantemente buscando me desenvolver tanto tecnicamente quanto profissionalmente, pois acredito que a aprendizagem contínua é essencial na área de tecnologia.
 
-Estou motivado para fazer parte de um time onde eu possa contribuir com minhas habilidades, aprender com outros profissionais e crescer como desenvolvedor Front-End.</p>
+               Estou motivado para fazer parte de um time onde eu possa contribuir com minhas habilidades, aprender com outros profissionais e crescer como desenvolvedor Front-End.</p>
 
          </div>
 
-   
-         
+
+
 
       </>
    )

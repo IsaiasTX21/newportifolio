@@ -58,7 +58,7 @@ p {
 
 #cv {
     position: relative;
-    top: 20px;
+    top: 30px;
 }
 
 #thanks {
@@ -109,7 +109,7 @@ p {
 
 #Hellophrase {
     font-size: 20px;
-    margin-top: 230px;
+    margin-top: 200px;
 }
 
 #Aboutme {
@@ -204,6 +204,9 @@ button {
 
 @media only screen and (width < 850px) {
 
+
+
+
     .containerphoto {
         flex-direction: column;
     }
@@ -244,6 +247,11 @@ button {
         height: auto;
     }
 
+    #cv {
+        position: relative;
+        top: -30px;
+    }
+
     #divimage {
         margin: auto;
         width: 100%;
@@ -277,8 +285,9 @@ button {
 
 @media only screen and (width < 450px) {
 
-    #divtext {
-        height: 250px;
+    #cv {
+        position: relative;
+        top: -70px;
     }
 
     p {
@@ -303,6 +312,33 @@ button {
         width: 100%;
         font-size: 15px;
         text-align: center;
+    }
+
+
+
+}
+
+@media only screen and (width < 350px) {
+
+    header {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #myself {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    #containermenu {
+        width: 100%;
+
     }
 
 }

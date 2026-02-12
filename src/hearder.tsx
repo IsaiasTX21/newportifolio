@@ -3,20 +3,23 @@ export function Header() {
 
    return (
       <>
-      
+
          <header>
-            
-            <div>
+
+            <div id="myself">
+             
                <ul>
-                  <li> ISAIAS </li>
+                  <li > ISAIAS </li>
                </ul>
+
+
             </div>
 
-            <div >
-               <ul>
-                     <Link to={"/"}> <li>Principal</li> </Link>
+            <div id="containermenu" >
+               <ul id="menu">
+                  <Link to={"/"}> <li>Principal</li> </Link>
                   <Link to={"/Projects"}> <li>Projetos</li></Link>
-                   <Link to={"/Contact"}> <li> Contatos</li> </Link>
+                  <Link to={"/Contact"}> <li> Contatos</li> </Link>
                </ul>
             </div>
 
