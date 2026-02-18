@@ -38,7 +38,7 @@ export function Projects() {
             return (
                <div className='containerphoto'>
                   <div className='groupsprojects'>
-                     <a href={element.link}> <img className='photoprojects' src={element.Photo} alt="" /> </a>
+                     <a href={element.link}> <img className='photoprojects' src={element.Photo} alt="Imagens dos projetos" /> </a>
 
                   </div>
 

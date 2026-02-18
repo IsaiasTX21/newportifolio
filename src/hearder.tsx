@@ -17,9 +17,9 @@ export function Header() {
 
             <div id="containermenu" >
                <ul id="menu">
-                  <Link to={"/"}> <li>Principal</li> </Link>
-                  <Link to={"/Projects"}> <li>Projetos</li></Link>
-                  <Link to={"/Contact"}> <li> Contatos</li> </Link>
+                  <Link to={"/"}> <li className="menulist">Principal</li> </Link>
+                  <Link to={"/Projects"}> <li className="menulist">Projetos</li></Link>
+                  <Link to={"/Contact"}> <li className="menulist"> Contatos</li> </Link>
                </ul>
             </div>
 

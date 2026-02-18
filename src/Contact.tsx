@@ -9,7 +9,7 @@ export function Contact() {
 
                 <form action="https://formsubmit.co/isaiascaetanodev@gmail.com" method="POST">
 
-                    <h2>Meu contact!</h2>
+                    <h2>Meu contato!</h2>
                     <a href="https://wa.me/5521981614216"> <img src={whatssap} alt="whatsapp" /></a>
                     <label htmlFor="gmail">Seu Gmail.</label>
                     <input type="email" placeholder="Por favor, escreva seu gmail." name='gmail' id='gmail' required />
@@ -17,9 +17,6 @@ export function Contact() {
                     < textarea required placeholder="Escreva aqui o que desejar senhor(a)." name='textarea' id='textarea' />
                     <input type="hidden" name="_next" value="https://portifolio2026007.netlify.app/Return"></input>
                     <button type='submit'>Enviar</button>
-
-
-
 
                 </form>
 

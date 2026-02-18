@@ -1,5 +1,8 @@
 import { Header } from './hearder'
-import Eu from './img/EuB.png'
+import Eu from './img/capa.png'
+
+
+
 
 export function Principal() {
 
@@ -10,21 +13,25 @@ export function Principal() {
          <Header />
          <div id="containerperfil">
             <div id="divimage">
-               <img id='Myself' src={Eu} alt="The Creater of the portifolio" />
+               <img id='Myself' src={Eu} alt="Imagem do desenvolvedor" />
+              
+              
             </div>
             <div id="divtext">
                <span id='Helloworld'>Olá Mundo!</span>
                <p id='Hellophrase'>Te convido(a) a ver meu mundo como ele realmente funciona.</p>
                <button id='cv' type='button'><a href='https://drive.google.com/file/d/1ZNV1r4X7kJCO8wZFE9NU2wyvqu9h4NHf/view'>Curriculo</a></button>
             </div>
+            
          </div>
 
-
+           
 
          <div id='Aboutme'>
 
             <h1 style={{ textAlign: "center", marginTop: "15px", fontWeight: "500" }}>Sobre mim</h1>
             <br />
+            
 
             <p>Sou desenvolvedor Front-End com foco na criação de interfaces modernas, responsivas e centradas na experiência do usuário. Tenho interesse em desenvolver soluções digitais bem estruturadas, funcionais e visualmente agradáveis, sempre buscando equilibrar design, desempenho e usabilidade.
 
@@ -37,6 +44,9 @@ export function Principal() {
                Estou motivado para fazer parte de um time onde eu possa contribuir com minhas habilidades, aprender com outros profissionais e crescer como desenvolvedor Front-End.</p>
 
          </div>
+
+         
+    
 
 
 
